@@ -1,4 +1,4 @@
-name: Website Deployment
+name: Using Resuable Workflow
 on:
   push:
     branches:
