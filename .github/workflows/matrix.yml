@@ -10,7 +10,7 @@ jobs:
         include: # add a standalone combination
           - node-version: 18
             operating-system: ubuntu-latest
-        exclue:
+        exclude:
           - node-version: 12 # to exclue a combination
             operating-system: windows-latest
     runs-on: ${{ matrix.operating-system }} #this will run the jobs 2 times one for ubuntu and one for windows with the node-version combination (total 6 jobs)
